@@ -7,6 +7,9 @@ then
 fi
 
 echo "Número de argumentos passados: $#"
+echo "$@"
+echo "$*"
+
 
 i=0
 

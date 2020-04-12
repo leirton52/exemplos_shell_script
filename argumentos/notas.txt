@@ -2,3 +2,10 @@ $0 – contém o nome do script que foi executado;
 $1 … $n – contêm os argumentos na ordem em que foram passados (1º argumento em $1, 2º argumento em $2, etc.).
 $# - contém o número de argumentos que foi passado (ou seja, não considera o nome do script em $0);
 $* - retorna todos os argumentos de uma vez só.
+
+
+Como exemplo os argumentos passados a um certo script são A, B, C e D.
+O bash expande $* e $@ em A B C D. Assim, separadas por espaço.
+A diferença é quando eles estão entre " " ou ' ', como foi dito. Nesse caso, o bahs expande da seguinte forma:
+"$*" ---> "A B C D"
+"$@" ---> "A" "B" "C" "D"
