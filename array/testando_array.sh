@@ -6,7 +6,11 @@ mundo1=("Shell script" "ubuntu" "linux" "mint" "Js" "node")
 
 echo "O meu array é {${mundo1[*]}}"
 echo "A quantidade de elementos do meu array é ${#mundo1[@]}"
+echo "Os indices do meu array são ${!mundo1[@]}"
+unset mundo1[2] #removing the element 3rd of the array
 echo ""
+
+
 
 ultimoElemento=$((${#mundo1[@]}-1))
 

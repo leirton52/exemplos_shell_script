@@ -1,0 +1,1 @@
+ls: não foi possível acessar '+al': Arquivo ou diretório inexistente

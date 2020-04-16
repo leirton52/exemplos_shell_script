@@ -1,0 +1,11 @@
+total 36
+drwxr-xr-x  2 leirton leirton 4096 abr 11 23:16 .
+drwxr-xr-x 10 leirton leirton 4096 abr  9 23:32 ..
+-rw-r--r--  1 leirton leirton   72 abr 11 23:05 err.txt
+-rwxrwxrwx  1 leirton leirton  251 abr 11 15:24 ex14_argumentos.sh
+-rw-r--r--  1 leirton leirton  619 abr 11 15:32 notas.txt
+-rwxr-xr-x  1 leirton leirton   52 abr 11 23:16 output_err.sh
+-rw-r--r--  1 leirton leirton  480 abr 11 23:05 output_ok.txt
+-rwxr-xr-x  1 leirton leirton  234 abr 11 23:05 output.sh
+-rw-r--r--  1 leirton leirton    0 abr 11 23:16 out.txt
+-rwxr-xr-x  1 leirton leirton   74 abr 11 17:23 read_line_by_line.sh
